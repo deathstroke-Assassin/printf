@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * get_specifier - get specifier
  * @s: string format
