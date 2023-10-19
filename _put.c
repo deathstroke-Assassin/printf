@@ -8,7 +8,7 @@ int _puts(char *str)
 {
 char *a = str;
 while (*str)
-	putchar(*str++);
+	_putchar(*str++);
 return (str - a);
 }
 /**
@@ -27,5 +27,5 @@ if (c == BUF_FLUSH || i >= OUTPUT_BUF_SIZE)
 }
 if (c != BUF_FLUSH)
 	buf[i++] = c;
-return (i);
+return (1);
 }
