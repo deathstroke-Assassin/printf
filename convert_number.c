@@ -80,6 +80,12 @@ if (params->hashtag_flag && l)
 params->unsign = 1;
 return (c += print_number(str, params));
 }
+/**
+ * print_binary - print octal 8
+ * @ap: argument pointer
+ * @params: parameters struct
+ * Return: n of bytes
+ */
 int print_binary(va_list ap, params_t *params)
 {
 unsigned long l;

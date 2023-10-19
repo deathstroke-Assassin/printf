@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * init_params
+ * init_params - params
  * @params: parameter struct
  * @ap: argument pointer
  * Return: void
